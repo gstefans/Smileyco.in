@@ -162,7 +162,7 @@ export default class Wallets extends Component {
                         <p>Download the Windows wallet or compile your own!</p>
                       </div>
                       <div className="dwl-card-action">
-                        <a href="https://github.com/tutor-web/smileyCoin/releases/download/v2.2.2/Smileycoin-Qt.dmg">Download</a>
+                        <a href="https://github.com/tutor-web/smileyCoin/releases/download/v2.2.2/smileycoin-qt.exe">Download</a>
                         <a href="https://github.com/tutor-web/smileyCoin/blob/master/doc/build-msw.md">Compilition instructions</a>
                       </div>
                     </div>
@@ -173,7 +173,7 @@ export default class Wallets extends Component {
                           <p>Download the MacOS wallet or compile your own!</p>
                         </div>
                         <div className="dwl-card-action">
-                          <a href="https://github.com/tutor-web/smileyCoin/releases/download/v2.2.2/Smileycoin-Qt.dmg">Download</a>
+                          <a href="https://github.com/tutor-web/smileyCoin/releases/download/v2.2.4/Smileycoin-Qt.dmg">Download</a>
                           <a href="https://github.com/tutor-web/smileyCoin/blob/master/doc/build-osx.md">Compilition instructions</a>
                         </div>
                       </div>

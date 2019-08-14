@@ -1,5 +1,17 @@
 @import '../../config.scss';
 
+.getstarted-title{
+  @media(max-width: 850px){
+    font-size: 3em;
+  }
+  @media(max-width: 680px){
+    font-size: 2.5em;
+  }
+  @media(max-width: 590px){
+    font-size: 2em;
+  }
+}
+
 .how-to-header {
   background-color: $color1;
   padding-top: 50px;

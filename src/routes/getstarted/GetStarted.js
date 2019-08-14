@@ -16,10 +16,9 @@ export default class GetStarted extends Component {
               <div className = "heading__img">
                   <img src="smiley3.png" alt="Smileycoin"/>
               </div>
-              <div className="heading__content__title">
+              <div className="heading__content__title getstarted-title">
                   <div className="heading__content__title__title">
                       <p className = "title">How to earn <b>Smiley</b>Coin </p>
-
                   </div>
               </div>
           </div>

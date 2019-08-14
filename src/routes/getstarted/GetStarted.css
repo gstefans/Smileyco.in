@@ -1,3 +1,15 @@
+@media (max-width: 850px) {
+  .getstarted-title {
+    font-size: 3em; } }
+
+@media (max-width: 680px) {
+  .getstarted-title {
+    font-size: 2.5em; } }
+
+@media (max-width: 590px) {
+  .getstarted-title {
+    font-size: 2em; } }
+
 .how-to-header {
   background-color: #94D6FF;
   padding-top: 50px; }

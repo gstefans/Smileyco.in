@@ -33,8 +33,7 @@
           flex-direction: column-reverse; } }
       .coin__content__info__img {
         padding: 20px 20px;
-        width: 30%;
-        display: flex; }
+        width: 30%; }
         @media (max-width: 620px) {
           .coin__content__info__img {
             margin: auto;

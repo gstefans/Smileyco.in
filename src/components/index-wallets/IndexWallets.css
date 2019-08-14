@@ -9,11 +9,13 @@
     .wallet__content__img {
       width: 35%;
       padding: 0 10px 20px 0;
-      display: flex; }
+      position: relative; }
       .wallet__content__img img {
         width: 100%;
-        display: flex;
-        margin-top: auto; }
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 20px; }
     .wallet__content__title {
       display: flex;
       padding: 20px 0;

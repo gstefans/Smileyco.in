@@ -1,7 +1,7 @@
 @import '../../config.scss';
 
 .wallets{
-  background-image: linear-gradient($color5 1%, white 100%);
+  background-image: linear-gradient($color1 1%, white 100%);
   margin-top: 50px;
   height: 700px;
   &__title{
@@ -75,12 +75,10 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  //padding: 20px 20px;
   -webkit-transition: top 1s;
   -moz-transition: top 1s;
   -o-transition: top 1s;
   transition: top 1s;
-  //width: 20%;
   margin: auto;
 }
 .desktop__button{
@@ -90,7 +88,6 @@
   display: none;
 }
 
-// http://jsfiddle.net/8ZFMJ/2/
 
 .mobile{
   position: relative;
