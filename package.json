@@ -24,7 +24,7 @@
     "build-js": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "pm2 start ./server.sh --name smly.trade",
+    "deploy": "pm2 start ./server.sh --name smileyco.in",
     "generate": "rc-autocomplete"
   },
   "eslintConfig": {

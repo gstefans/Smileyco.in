@@ -3,30 +3,41 @@
 
 - Bragi Arnarson
     - (bra26@hi.is)
-- Orri Martinez
-    - (orm2@hi.is)
 
 ## Lýsing á Verkefni
 
-Verkefnið er endurbætt útgáfa af vefsíðunni smly.trade
+Verkefnið er endurbætt útgáfa af vefsíðunni smlileyco.in
 
 Á endurbættu vefsíðunni er ein forsíða og tvær undirsíður.
 
 Undiríðurnar eru
 - Introduction (Útskýrir betur hvað SmileyCoin er)
 - Get started (Útskýrir nokkrar leiðir hvernig maður eignast SmileyCoin)
+- Wallets (Velur þér veski)
+- Coin and mining information (Meiri upplýsingar um myntina og uppgröftinn)
+- Details (Meiri smáatriði um smileycoin)
 
 Á forsíðunni er haus sem inniheldur linka yfir á hinar undirsíðurnar og einnig "live price tracker" sem fær beint verð SmileyCoin. Við útfærðum það með hjálp þessarar síðu: https://min-api.cryptocompare.com/
 Einnig eru helstu upplýsingar um SmileyCoin á forsíðunni og við settum einnig Twitter news feedið frá @smileyCoinNews á forsíðuna.
 
-[Smelltu hér ](https://smlytrade.herokuapp.com/) til að komast á slóð verkefnisins keyrandi á vef.  
+[Smelltu hér ]() til að komast á slóð verkefnisins keyrandi á vef.  
 
 Við notuðum React javascript libraryið til þess að byggja upp síðuna
 
+# How to run the project
 
+## Download NodeJS
 
-# Upplýsingar um hvernig skuli keyra verkefnið
+https://nodejs.org/en/
 
+Confirm the installation by typing in terminal
+`node -v` and `npm -v`.
+
+## Install the dependencies
+Navigate to the project folder and type in
+`npm install` and it should install all the necessary packages.
+
+## React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -72,16 +83,17 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-# Information on how to run Smly.trade for production use on server
+# One way how to run the (static) project for production use on server
 
 ## 1. Build the project with npm run build
 
-It builds the app and should make a build folder
+It builds the app and should make a build folder. You can do it on your device and then move the
+build folder to the server.
 
 ### 2. Install pm2 globally
 `sudo npm install -g pm2`
 
-### 3. Add this deploy script to your to your scripts in the package.json file
+### 3. If it's not there, add this deploy script to your scripts in the package.json file
 
 `deploy": "pm2 start ./server.sh --name yourAppName",`
 
@@ -99,3 +111,7 @@ Don't forget to make server.sh an executable by running:
 `npm run deploy`
 
 ### 6. To make the server start on boot read: http://pm2.keymetrics.io/docs/usage/startup/
+
+
+# Other ways to set it up
+- https://create-react-app.dev/docs/deployment
