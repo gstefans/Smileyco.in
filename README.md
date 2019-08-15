@@ -1,4 +1,4 @@
-# Lokaverkefni í Rafmyntum
+
 ### Nafn og netfang höfunda
 
 - Bragi Arnarson
@@ -8,7 +8,7 @@
 
 Verkefnið er endurbætt útgáfa af vefsíðunni smlileyco.in
 
-Á endurbættu vefsíðunni er ein forsíða og tvær undirsíður.
+Á endurbættu vefsíðunni er ein forsíða og 5 undirsíður.
 
 Undiríðurnar eru
 - Introduction (Útskýrir betur hvað SmileyCoin er)
@@ -23,6 +23,30 @@ Einnig eru helstu upplýsingar um SmileyCoin á forsíðunni og við settum einn
 [Smelltu hér ]() til að komast á slóð verkefnisins keyrandi á vef.  
 
 Við notuðum React javascript libraryið til þess að byggja upp síðuna
+
+#Structure
+```
+project
+│   README.md
+│       
+│
+└─── src
+    │   
+    │
+    └─── components (mainly main page)
+    |  │   index-about
+    |  │   index-coin
+    |  │   ...
+    |  
+    └─── routes (pages)
+       |  about
+       |  coininfo
+       |  getstarted
+       |  home
+       |  wallets
+```
+Inside every page component is a js file, containing html code and necessary scripts,
+and also a stylesheet (scss file).
 
 # How to run the project
 

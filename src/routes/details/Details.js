@@ -58,6 +58,7 @@ export default class Details extends Component {
         As indicated above, liquidity providers have been automated in the form of bots, for SMLY-DOGE and SMLY-LTC markets on tradesatoshi, c-cex and novaexchange. These receive coins from mining activity but were given starting amounts in SMLY from the tutor-web wallets.
         <br/><br/>
         <b>2016 update; information on spending:</b>
+        </p>
         <ul class = "about__list">
           <li class = "about__list__item">By year-end 2016, 2.7 billion SMLY have been allocated to students</li>
           <li class = "about__list__item">Most development is undertaken as small research projects, funded by grants.</li>
@@ -65,6 +66,7 @@ export default class Details extends Component {
           <li class = "about__list__item">A clause in the tutor-web reward system states: SMLY not redeemed by students will be automatically donated to Education in a Suitcase.</li>
           <li class = "about__list__item">Once the donation clause kicks in (late 2018), EIAS will be able to assist more with SMLY development.</li>
         </ul>
+        <p>
         <br/><br/>
         <b>2017 update A:</b>
         t is proposed that the mining fee be modified so that miners no longer receive the entire coinbase of 10 thousand SMLY. Instead, miners receive a much lower amount, most likely 1000 SMLY, 4500 are donated to an address maintained by Education in a Suitcase and 4500 are sent to the oldest address on the rich list. "Oldest" means the one which has remained unchanged for the longest. "Rich list" likely means addresses which contain at least 25 million SMLY. The full details will be worked out in summer, 2017. Combined with the proof-of-work algorithm (scrypt POW), this implements a supplementary proof-of-stake-style approach which pays dividends to wallets on the rich list..
