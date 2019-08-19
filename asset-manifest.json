@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3f4ba94.chunk.css",
+    "main.js": "/static/js/main.26f54ecb.chunk.js",
+    "main.js.map": "/static/js/main.26f54ecb.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.59be25d3.chunk.js": "/static/js/2.59be25d3.chunk.js",
+    "static/js/2.59be25d3.chunk.js.map": "/static/js/2.59be25d3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1aa6634022413b9a337276ee349ea2f6.js": "/precache-manifest.1aa6634022413b9a337276ee349ea2f6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d3f4ba94.chunk.css.map": "/static/css/main.d3f4ba94.chunk.css.map",
+    "static/media/atm.png": "/static/media/atm.68ac2b35.png",
+    "static/media/community.svg": "/static/media/community.3a742f89.svg",
+    "static/media/cryptocompare.jpg": "/static/media/cryptocompare.8ba21863.jpg",
+    "static/media/digital-wallet.png": "/static/media/digital-wallet.4871cdc5.png",
+    "static/media/exch.png": "/static/media/exch.0645e3e7.png",
+    "static/media/game.svg": "/static/media/game.1251020d.svg",
+    "static/media/kenya.jpg": "/static/media/kenya.d9e29e2c.jpg",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/newdonation-color.svg": "/static/media/newdonation-color.d736b840.svg",
+    "static/media/rocket.svg": "/static/media/rocket.6cf5174a.svg",
+    "static/media/search.png": "/static/media/search.c8744fbb.png",
+    "static/media/smiley3.png": "/static/media/smiley3.c6212cda.png",
+    "static/media/tutor-web.png": "/static/media/tutor-web.f5733b43.png",
+    "static/media/withwork-color.svg": "/static/media/withwork-color.7406e187.svg"
+  }
+}
