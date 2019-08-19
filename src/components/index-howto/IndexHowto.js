@@ -13,7 +13,7 @@ export default class IndexHowto extends Component {
           <div className = "howto__content content">
             <div>
                 <h2 className = "howto__content__title">How can you get SMLY?</h2>
-              <p className = "howto__content__text">There are a few ways to get some smileycoins:</p>
+              <p className = "howto__content__text">There are a few ways to get some Smileycoins:</p>
               <div className = "list">
                   <Link to="/getstarted#easy" className = "list__item">
                       <div className = "list__img">
