@@ -24,6 +24,16 @@ Einnig eru helstu upplýsingar um SmileyCoin á forsíðunni og við settum einn
 
 Við notuðum React javascript libraryið til þess að byggja upp síðuna
 
+## Deploying to Github pages
+
+The site is hosted via. Github pages from the ``gh-pages`` branch in this repository.
+To update the repository, run the following:
+
+```
+npm run build
+npm run deploy
+```
+
 #Structure
 ```
 project

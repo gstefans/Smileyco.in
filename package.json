@@ -16,15 +16,17 @@
     "react-twitter-widgets": "^1.7.1"
   },
   "scripts": {
+    "build-workdir": "[ -d './build' ] || git worktree add ./build gh-pages ; git --git-dir=./build/.git --work-tree=./build pull origin gh-pages",
+    "build-fixworkdir": "[ -e './build/.git' ] || echo \"gitdir: $(pwd)/.git/worktrees/build\" > './build/.git' ; git --git-dir=./build/.git --work-tree=./build checkout CNAME",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start": "npm-run-all -p watch-css start-js",
-    "build": "npm-run-all build-css build-js",
+    "build": "npm-run-all build-workdir build-css build-js build-fixworkdir",
     "start-js": "react-scripts start",
     "build-js": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "pm2 start ./server.sh --name smileyco.in",
+    "deploy": "git --git-dir=./build/.git --work-tree=./build add -A ; git --git-dir=./build/.git --work-tree=./build commit -m \"Site at $(git rev-parse --short HEAD)\" ; git push origin gh-pages",
     "generate": "rc-autocomplete"
   },
   "eslintConfig": {
