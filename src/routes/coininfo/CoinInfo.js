@@ -28,30 +28,24 @@ export default class CoinInfo extends Component {
         <p>
         The following information is intended specifically for miners who help run the SMLY cryptocoin network. Attempts are made to keep it up-to-date, but the thread at <a href = "https://bitcointalk.org/index.php?topic=845761">https://bitcointalk.org/index.php?topic=845761</a> keeps a track record of the development.
         <br/><br/>
-        The tutor-web project pre-mined just under 50% of all coins. Since the initial phase, mining has been open to any miner. The opening date for mining was Nov. 24 2014, as announced on twitter (by @gstefans), on the main talk forum at <a href = "https://bitcointalk.org/index.php?topic=845761.0">https://bitcointalk.org/index.php?topic=845761.0</a>; all and on <a href = "https://www.altcoincalendar.info">https://www.altcoincalendar.info</a>.
+        The tutor-web project pre-mined just under 50% of all coins. These premined coins were subsequently moved to the SmileyCoin Fund and stored in a single multisig address, 3JT9LAzuMChCifVoQQK18BQV9z4BzpbQVH. Since the initial phase, mining has been open to any miner. The opening date for mining was Nov. 24 2014, as announced on twitter (by @gstefans), on the main talk forum at <a href = "https://bitcointalk.org/index.php?topic=845761.0">https://bitcointalk.org/index.php?topic=845761.0</a>; all and on <a href = "https://www.altcoincalendar.info">https://www.altcoincalendar.info</a>.
         <br/><br/>
-        As explained elsewhere on this page, the pre-mined coins are used to reward students for their performance. In addition, the project will award grants to developers and entrepreneurs, who aim to use the Smileycoin in their systems or otherwise develop environments which lead to increased use of the SMLY. Uses may include but are not limited to gaming projects requiring the use of SMLY as a currency. IMPORTANT: The premine has been moved entirely into a SmileyCoin Fund governed by a Board which accepts applications from developers and organisers of educational or other technologies which can use or promote the use of SMLY
-        <br/><br/>
-        During the premine phase one experiment was conducted on the use of the SMLY in a class of 200 students. The purpose was to debug and test the entire system on a live student group. Only minor student participation is expected and few wallets were predicted to be set up. The predicted amount of SMLY to be spent was about one block reward or 10000 SMLY.
+        As explained elsewhere on this page, the SmileyCoin Fund has a Board which accepts grant applications for education and educational technology. For example, the tutor-web wallet recieves SmileyCoins which are used to reward students for their performance. In addition, the project will award grants to developers and entrepreneurs, who aim to use the Smileycoin in their systems or otherwise develop environments which lead to increased use of the SMLY. Uses may include but are not limited to gaming projects requiring the use of SMLY as a currency. 
         <br/><br/>
         Initial block reward: 10000 SMLY.
         <br/><br/>
-        The coin is based on litecoin source. The source code is freely available. UPDATE: The code has been revised and is from 2017 based on Auroracoin code.
+        The coin was initially based on Litecoin source. The source code is freely available. UPDATE: From 2017 the core wallet is based on Auroracoin code.
         <br/><br/>
-        A total of 50*10^9 (50 billion) coins will eventually be generated, half during the pre-mine phase.
+        A total of 48*10^9 (48 billion) coins will eventually be generated.
         <br/><br/>
-        Difficulty will be adjusted approximately every 5 days so as to obtain a new block every 3 minutes on average. This difficulty schedule aims to reduce the non-premined coins by 50% over 7 years. Modification: The difficulty computations were revised in August, 2015, after which difficulty is re-evaluated every 60 blocks, still with a goal to mine a new block every 3 minutes.
+        Difficulty is adjusted so as to obtain a new block every 3 minutes on average. This difficulty schedule aims to reduce the number of mined coins per block by 50% over 7 years. Modification: The actual difficulty computations have been revised a few times to obtain more stability in block times.
         <br/><br/>
         Main mining discussion thread: <a href = "https://bitcointalk.org/index.php?topic=845761">https://bitcointalk.org/index.php?topic=845761</a>
-        <br/><br/>
-        Mining pools are available: <a href = "smly.hashlink.edu" >smly.hashlink.edu</a>
         <br/><br/>
         Coin explorers: <a href = "https://chainz.cryptoid.info/smly/">https://chainz.cryptoid.info/smly/</a> and <a href = "https://blocks.smileyco.in/">https://blocks.smileyco.in/</a>
         <br/><br/>
         The SMLY is registered at cryptocoin exchanges, where it is possible to exchange SMLY for other electronic currencies such as Dogecoin (DOGE) and Litecoin (LTC) as well as Bitcoin (BTC).
-        See for example <a href = "https://tradesatoshi.com/">https://tradesatoshi.com/</a> <a href = "https://www.southxchange.com/Market/Book/SMLY/LTC">https://www.southxchange.com/Market/Book/SMLY/LTC</a>, and <a href = "https://novaexchange.com/market/DOGE_SMLY/">https://novaexchange.com/market/DOGE_SMLY/</a>
-        <br/><br/>
-        the tutor-web project provided a minimal mining capacity to ensure SMLY network functionality.
+        See for example <a href = "https://tradesatoshi.com/">https://tradesatoshi.com/</a> <a href = "https://www.southxchange.com/Market/Book/SMLY/LTC">https://www.southxchange.com/Market/Book/SMLY/LTC</a>, and <a href = "https://p2pb2b.io/">https://p2pb2b.io/</a>
         </p>
       </div>
   </div>

@@ -25,15 +25,12 @@ export default class About extends Component {
     <div className = "smlyabout">
     <h1 className="smlyabout__title">About SmileyCoin</h1>
     <p>
-        Smileycoin is a cryptocurrency that has been specially designed to reward students for their studies.
-        The currency bears the apt name Smileycoin or SMLY and is used within the tutor-web online learning platform.
-        The tutor-web is a freely accessible and completely open web-based platform, initially developed as a research tool for on-line education.
+SmileyCoin, launched on 2014-11-13, is designed for education and charity. Linked projects are (a) the tutor-web, a freely accessible educational system at http://tutor-web.net with SmileyCoin rewards and (b) Education in a Suitcase, distributes the tutor-web and other educational material on donated servers and tablets, to schools and students in low-income regions.
         <br/><br/>
-        In order to make the SMLY more attractive several approaches have been used, including support from companies whose services can be purchased for SMLY.
+
+Charity efforts are coordinated by the Smiley Charity, and the African Maths Initiative (AMI, Kenya), whereas technical development is coordinated from the University of Iceland and Shuttle Thread Ltd (England). These parties nominate members of the Board of the SmileyCoin Fund, which accepts grant applications for educational technologies.
         <br/><br/>
-        A few thousand students have taken courses using the SMLY.
-        <br/><br/>
-        The SMLY recently celebrated its second birthday, making it an established cryptocurrency and no longer a newcomer.
+The SmileyCoin coinbase is split: miner receives 10%, and 45% become automatic donations in 10 income streams handled by the Smiley Charity and 45% are automatic dividends to addresses holding more than 25 M SMLY. The Smiley Charity pays parts forward to other charities such as UNICEF and AMI.
         <br/><br/>
         </p>
         <h2 className="smlyabout__subtitle">Education in a suitcase</h2>
