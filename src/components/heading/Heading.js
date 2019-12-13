@@ -20,7 +20,7 @@ export default class Heading extends Component {
             </div>
         </div>
         <div className = "heading__about title">
-            Smileycoin is an open source peer-to-peer digital currency used for rewarding students for their performance in the tutor-web learning environment
+            Smileycoin or SMLY is a cryptocurrency, which rewards students, donates to charity and allows investors to fund causes while receiving dividends.
         </div>
     </div>
 
