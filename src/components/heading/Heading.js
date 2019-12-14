@@ -20,7 +20,7 @@ export default class Heading extends Component {
             </div>
         </div>
         <div className = "heading__about title">
-            Smileycoin or SMLY is a cryptocurrency to rewards students, donate to charity and a way for the investor to fund a good cause while receiving dividends. It is also a part of many research projects.
+            Smileycoin or SMLY is a cryptocurrency to reward students, donate to charity and a way for the investor to fund a good cause while receiving dividends. It is also a part of many research projects.
         </div>
     </div>
 
