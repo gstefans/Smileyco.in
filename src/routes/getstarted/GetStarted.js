@@ -38,16 +38,9 @@ export default class GetStarted extends Component {
                     <br/>
                     <br/>
                     It is easy to test this: Just go to their <a href="http://educationinasuitcase.com/donation/en/index.html">Donation page</a> and send them five dollars. If you follow the instructions, then you will quickly see some Smileycoins in your wallet.
-                    <br/>
-                    Now, these donation pages are mostly in Icelandic at the time of this writing. You will want to know the following:
-                </div>
-                <ul>
-                    <li>The amount is in Icelandic kronor. Very roughly, 1 USD=120 ISK</li>
-                    <li>Hitting the "Styrkja..."="Donate..." button takes you to the next page</li>
-                    <li>This takes you to a page where you (securely) give your credit card info</li>
-                    <li>After you have made your donation, you will be offered Smileycoins</li>
-                    <li>Just enter your Smileycoin wallet address and you will get some coins</li>
-                </ul>
+	    <br/>
+	    Warning: The service provider ran into problems at one stage. You can in any case support the Smiley Charity through their <a href="https://www.patreon.com/eias">Patreon page</a>.
+            </div>
             </div>
           </div>
     </div>
@@ -72,20 +65,15 @@ export default class GetStarted extends Component {
                     <br/><br/>
                     You will always need to have an account at a cryptocurrency exchange.
                     <br/><br/>
-                    The exchanges at <a href="https://tradesatoshi.com/">Tradesatoshi</a>, <a href="https://www.southxchange.com/Market/Book/SMLY/DOGE">SouthXchange</a> and <a href="https://novaexchange.com/">Novaexchange</a>  have several "markets", i.e. places which look like a stock market and you can sell one cryptocurrency for another. Both of these exchanges have SMLY markets.
-                    The following is currently the easiest method to buy SMLY for fiat (ordinary money).
-                    (Here we using VirVoX to buy BTC but you can use any service you like. If you are a Icelandic citizen we recommend using <a href="https://isx.is/">ISX.is</a> to buy BTC)
-                    </p>
-                    <ul>
-                        <li>Get an account at an exchange: <a href="https://tradesatoshi.com/">https://tradesatoshi.com/</a>, <a href="https://c-cex.com">https://c-cex.com</a> and <a href="https://novaexchange.com/">https://novaexchange.com/</a>  have several "markets", i.e. places which look like a stock market and you can sell one cryptocurrency for another. Each of these exchanges have SMLY markets</li>
-                        <li>Deposit fiat (USD, GBP or EUR) using PayPal, VISA etc at <a href = "https://www.virwox.com">VirVoX</a></li>
-                        <li>Get an account at https://www.virwox.com/</li>
-                        <li>Buy SLL for fiat at https://www.virwox.com/</li>
-                        <li>Buy BTC for SLL at https://www.virwox.com/</li>
-                        <li>Transfer the BTC from https://www.virwox.com/ to your address at the exchange</li>
-                        <li>Buy DOGE or LTC for BTC on the exchange</li>
-                        <li>Buy SMLY for DOGE or LTC on the exchange</li>
-                    </ul>
+            The exchanges at <a href="https://tradesatoshi.com/">Tradesatoshi</a>, <a href="https://www.southxchange.com/Market/Book/SMLY/DOGE">SouthXchange</a> and
+	    <a href="https://p2pb2b.io">p2pb2b</a>  have several "markets", i.e. places which look like a stock market and you can sell one cryptocurrency for another.
+	    These exchanges have several SMLY markets.
+            <br/><br/>
+	    Before entering any of these exchanges to buy SMLY, however, you need to convert fiat money (USD, ISK, EUR) to Bitcoin or another cryptocurrency first.
+	    This is most commonly done on a national exchange such as <a href="https://isx.is/">isx.is</a>
+	    <br/><br/>
+	    Alternatively you can use a broker who handles the entire process, such as <a href="http://balkar.is">Bálkar Miðlun</a>.
+            </p>
             </div>
         </div>
     </div>
@@ -93,7 +81,7 @@ export default class GetStarted extends Component {
         <div className = "how-to__col">
             <div className = "how-to__title" name = "wind">The winding way: Use the SMLY ATM</div>
             <div className = "how-to__content">
-                    Recently, experiments have been made with a SMLY ATM. This is a black-box into which one deposits Litecoin and gets back Smileycoin. <a href="https://steemit.com/blockchain/@gstefans/more-messing-around-with-the-blockchain-an-atm-for-smly"> A document is available </a> describing the non-trivial process.
+            Recently, experiments have been made with a SMLY ATM. This is a black-box into which one deposits Litecoin and gets back Smileycoin. <a href="https://steemit.com/blockchain/@gstefans/more-messing-around-with-the-blockchain-an-atm-for-smly"> A document is available </a> describing the non-trivial process. WARNING: These are (were) just experiments. Not for general use.
             </div>
             <div className = "smlyabout__back">
                 <Link to="/" className = "backLink">Go back</Link>
