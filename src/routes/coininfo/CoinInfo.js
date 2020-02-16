@@ -32,7 +32,7 @@ export default class CoinInfo extends Component {
         <br/><br/>
         As explained elsewhere on this page, the SmileyCoin Fund has a Board which accepts grant applications for education and educational technology. For example, the tutor-web wallet recieves SmileyCoins which are used to reward students for their performance. In addition, the project will award grants to developers and entrepreneurs, who aim to use the Smileycoin in their systems or otherwise develop environments which lead to increased use of the SMLY. Uses may include but are not limited to gaming projects requiring the use of SMLY as a currency. 
         <br/><br/>
-        Initial block reward: 10000 SMLY.
+            Initial block reward: 10000 SMLY. Current coinbase 10000 SMLY is split three ways, 1000 as a reward, 4500 for donations and 4500 for dividends.
         <br/><br/>
         The coin was initially based on Litecoin source. The source code is freely available. UPDATE: From 2017 the core wallet is based on Auroracoin code.
         <br/><br/>
@@ -40,7 +40,7 @@ export default class CoinInfo extends Component {
         <br/><br/>
         Difficulty is adjusted so as to obtain a new block every 3 minutes on average. This difficulty schedule aims to reduce the number of mined coins per block by 50% over 7 years. Modification: The actual difficulty computations have been revised a few times to obtain more stability in block times.
         <br/><br/>
-        Main mining discussion thread: <a href = "https://bitcointalk.org/index.php?topic=845761">https://bitcointalk.org/index.php?topic=845761</a>
+        Main technical discussion thread: <a href = "https://bitcointalk.org/index.php?topic=845761">https://bitcointalk.org/index.php?topic=845761</a>
         <br/><br/>
         Coin explorers: <a href = "https://chainz.cryptoid.info/smly/">https://chainz.cryptoid.info/smly/</a> and <a href = "https://blocks.smileyco.in/">https://blocks.smileyco.in/</a>
         <br/><br/>

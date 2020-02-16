@@ -18,13 +18,17 @@ export default class IndexCoin extends Component {
             </div>
             <div className = "coin__content__text">
                 <p>
-                The SmileyCoin is a linked to several projects. 
+                The SmileyCoin is a linked to several projects:
                 <br></br>
                 The <b>SmileyCoin Fund</b> is a fund to support educational efforts. 
-                The tutor-web rewards students for their performance using grants from the SmileyCoin Fund. 
+                <br></br>
+                The <b>tutor-web</b> rewards students for their performance using grants from the SmileyCoin Fund. 
+                <br></br>
                 In addition, the Fund will award grants to developers and entrepreneurs, who aim to use the Smileycoin in their systems or otherwise develop environments which lead to increased use of the SMLY.
                 <br></br>
-                Education in a Suitcase is a project run by the Smiley Charity, which receives automatic donations from SMLY miners. Some of these donations are paid forward. Recipients include UNICEF and the African Maths Initiative.
+                <b>Education in a Suitcase</b> is a project run by the Smiley Charity, which receives automatic donations from SMLY miners. Some of these donations are paid forward.                 
+                <br></br>
+                Recipients include UNICEF Iceland and the African Maths Initiative.
                 <br></br>
                 
                 </p>
