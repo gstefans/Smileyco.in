@@ -56,7 +56,7 @@ export default class IndexTodo extends Component {
                       <li><a href="https://bitcointalk.org/index.php?topic=845761.msg9431919#msg9431919">SmileyCoin on Bitcointalk</a> - General discussion about the SmileyCoin ecosystem, innovation and announcements </li>
                       <li><a href="https://twitter.com/smileycoinnews?lang=en">SmileyCoin twitter page</a> - News and announcements of SmileyCoin </li>
                       <li><a href="https://www.reddit.com/r/smileycoin/">Reddit</a> - Join our Reddit Community!</li>
-                      <li><a href="https://t.me/SmileyCoinInternational">Telegram</a> - SmileyCoin chatroom on Telegram</li>
+                      <li><a href="https://t.me/joinchat/GD3HC0aN2bMysqCivQgmVw">Telegram</a> - SmileyCoin chatroom</li>
                   </ul>
                 </div>
             </div>
